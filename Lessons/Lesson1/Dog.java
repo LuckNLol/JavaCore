@@ -17,6 +17,8 @@ public class Dog {
     public void woof() {
         weight = weight - 1;
         System.out.println("Woof!");
+        System.out.println("Woof!");
+        System.out.println("Woof!");
     }
 
     public void feed(Double amount) {
@@ -30,6 +32,7 @@ public class Dog {
     public void pee() {
         weight = weight - 10;
         System.out.println("Clean it, man!");
+        System.out.println("Now!");
     }
 
     public double getWeight() {
