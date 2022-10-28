@@ -15,6 +15,9 @@ public class Shtring {
 
         System.out.println(mulString("A", 100));
         System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
     }
 
