@@ -4,7 +4,9 @@ public class Animal {
     private boolean vegetarian;
     private String eats;
 
-    public Animal(){}
+    public Animal(){
+        System.out.println("Creature was created as Animal!");
+    }
 
     public Animal(boolean veg, String food){
         this.vegetarian = veg;
