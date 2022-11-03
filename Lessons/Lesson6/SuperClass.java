@@ -1,13 +1,11 @@
 package Lesson6;
 
 class SuperClass {
-    int d;
+    int num = 88;
 
-    SuperClass(int d) {
-        this.d = d;
-    }
-
-    public void getD() {
-        System.out.println(this.d);
+    public void display() {
+        System.out.println("Это метод display() суперкласса");
     }
 }
+
+
