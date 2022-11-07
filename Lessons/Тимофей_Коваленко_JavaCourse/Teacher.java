@@ -1,6 +1,6 @@
 package Тимофей_Коваленко_JavaCourse;
 
-public class Teacher extends People {
+public class Teacher extends People implements FirstInterface {
 
     private String subject;
     private String TeachID;
@@ -25,5 +25,10 @@ public class Teacher extends People {
     @Override
     public String getPeople() {
         return "Teacher";
+    }
+
+    @Override
+    public String getUniverName() {
+        return "222";
     }
 }

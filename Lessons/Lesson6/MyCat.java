@@ -7,5 +7,6 @@ public class MyCat {
         cat.getEats();
         cat.isVegetarian();
 
+
     }
 }

@@ -1,6 +1,6 @@
 package Тимофей_Коваленко_JavaCourse;
 
-public class Main17_10 {
+public class MainPeople {
     public static void main(String[] args) {
 
         Student student1 = new Student();
@@ -18,11 +18,14 @@ public class Main17_10 {
         student3.setAge(23);
         student3.setSpec("Prikladnaya matematika");
 
-        People people1 = new Student(); //это полиморфизм
-        People people2 = new Teacher(); //это полиморфизм
+        FirstInterface people1 = new Student(); //это полиморфизм
+        FirstInterface people2 = new Teacher(); //это полиморфизм
 
-        printType(people1); //это полиморфизм
-        printType(people2); //это полиморфизм
+        people1.getUniverName();
+
+//        printType(people1); //это полиморфизм
+//        printType(people2); //это полиморфизм
+
 
 //        System.out.println("student3: " + student3.getPeople()); // распечатали абстрактный класс
 //        System.out.println("student1: " + student1.getName() + " - " + student1.getAge() + " - " + student1.getSpec());
@@ -47,7 +50,8 @@ public class Main17_10 {
 //        System.out.println();
     }
 
-    public static void printType(People people) {
-        System.out.println("student3 " + people.getPeople());
+    public static void printType(FirstInterface people) {
+
+        System.out.println("student3 " + people.getUniverName());
     }
 }

@@ -1,10 +1,17 @@
 package Lesson6;
 
 class SuperClass {
-    int num = 88;
+    public int a;
+    public int b;
 
-    public void display() {
-        System.out.println("Это метод display() суперкласса");
+    SuperClass(int a) {
+        this.a = 15;
+        this.b = 33;
+    }
+
+    public int add(int v) {
+        this.a += v;
+        return a;
     }
 }
 

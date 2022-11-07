@@ -1,21 +1,19 @@
 package Lesson6;
 
 public class SubClass extends SuperClass {
-    int num = 77;
-    public void display() {
-        System.out.println("Это метод display() подкласса");
+    SubClass(int a, int b) {
+        super(a);
+        this.b = b;
     }
 
-    public void myMethod() {
-        this.display();
-        super.display();
-        System.out.println("Значение переменной num в подклассе: " + this.num);
-        System.out.println("Значение переменной num в подклассе: " + super.num);
+    @Override
+    public int add(int v) {
+        return super.add(v) + a;
     }
 
-    public static void main(String[] args) {
-        SubClass number = new SubClass();
-        number.myMethod();
-
+    public static void main(String args[]) {
+        SubClass s = new SubClass(10, 12);
+        System.out.println(s.add(10));
     }
 }
+

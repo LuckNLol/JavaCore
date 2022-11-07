@@ -1,6 +1,6 @@
 package Тимофей_Коваленко_JavaCourse;
 
-public class Student extends People {
+public class Student extends People implements FirstInterface {
     private String spec;
 
     public String getSpec() {
@@ -15,5 +15,11 @@ public class Student extends People {
     @Override
     public String getPeople() {
         return "Student";
+    }
+
+
+    @Override
+    public String getUniverName() {
+        return "111";
     }
 }
