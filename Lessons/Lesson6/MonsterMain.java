@@ -1,6 +1,6 @@
 package Lesson6;
 
-import Lesson3.Zaccomentit_20_4_6;
+import Lesson6.Battle.Zombie;
 
 public class MonsterMain {
     public static void main(String[] args) {

@@ -16,6 +16,6 @@ public class Square extends Figurers {
 
     @Override
     public double getSquare() {
-        return squareSquare + 3;
+        return squareSquare + 3; // Это перегрузка функции. Для квадртатов добавлены доп. 3см. к площади
     }
 }
