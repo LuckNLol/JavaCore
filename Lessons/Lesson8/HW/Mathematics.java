@@ -1,4 +1,4 @@
-package Lesson8.Matika;
+package Lesson8.HW;
 
 import static java.lang.Math.*;
 
